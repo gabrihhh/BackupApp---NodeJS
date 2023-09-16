@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup App</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <img src="images/logo.png">
+    <h2>Horários dos Backups</h2>
+    <main>
+    <div>
+	    <div><p>00h <input type="checkbox" id="00h"></p><p id="log-00h"><%= lista[0] %></p></div>	
+        <div><p>01h <input type="checkbox" id="01h"></p><p id="log-01h"><%= lista[1] %></p></div>
+        <div><p>02h <input type="checkbox" id="02h"></p><p id="log-02h"><%= lista[2] %></p></div>
+        <div><p>03h <input type="checkbox" id="03h"></p><p id="log-03h"><%= lista[3] %></p></div>
+        <div><p>04h <input type="checkbox" id="04h"></p><p id="log-04h"><%= lista[4] %></p></div>
+        <div><p>05h <input type="checkbox" id="05h"></p><p id="log-05h"><%= lista[5] %></p></div>
+        <div><p>06h <input type="checkbox" id="06h"></p><p id="log-06h"><%= lista[6] %></p></div>
+	<div><p>07h <input type="checkbox" id="07h"></p><p id="log-07h"><%= lista[7] %></p></div>
+        <div><p>08h <input type="checkbox" id="08h"></p><p id="log-08h"><%= lista[8] %></p></div>
+        <div><p>09h <input type="checkbox" id="09h"></p><p id="log-09h"><%= lista[9] %></p></div>
+	<div><p>10h <input type="checkbox" id="10h"></p><p id="log-10h"><%= lista[10] %></p></div>
+	<div><p>11h <input type="checkbox" id="11h"></p><p id="log-11h"><%= lista[11] %></p></div>
+        <div><p>12h <input type="checkbox" id="12h"></p><p id="log-12h"><%= lista[12] %></p></div>
+	<div><p>13h <input type="checkbox" id="13h"></p><p id="log-13h"><%= lista[13] %></p></div>
+        <div><p>14h <input type="checkbox" id="14h"></p><p id="log-14h"><%= lista[14] %></p></div>
+        <div><p>15h <input type="checkbox" id="15h"></p><p id="log-15h"><%= lista[15] %></p></div>
+        <div><p>16h <input type="checkbox" id="16h"></p><p id="log-16h"><%= lista[16] %></p></div>
+        <div><p>17h <input type="checkbox" id="17h"></p><p id="log-17h"><%= lista[17] %></p></div>
+        <div><p>18h <input type="checkbox" id="18h"></p><p id="log-18h"><%= lista[18] %></p></div>
+        <div><p>19h <input type="checkbox" id="19h"></p><p id="log-19h"><%= lista[19] %></p></div>
+        <div><p>20h <input type="checkbox" id="20h"></p><p id="log-20h"><%= lista[20] %></p></div>
+        <div><p>21h <input type="checkbox" id="21h"></p><p id="log-21h"><%= lista[21] %></p></div>
+        <div><p>22h <input type="checkbox" id="22h"></p><p id="log-22h"><%= lista[22] %></p></div>
+        <div><p>23h <input type="checkbox" id="23h"></p><p id="log-23h"><%= lista[23] %></p></div>
+    </div>
+    
+    </main>
+    <p id="name">Nome : <input type="text" id="nome" maxlength="14"></p>
+    <div>
+	<input type="button" value="Salvar" id="salvar">
+        <input type="button" value="Baixar" id="baixar">
+    </div>
+    <script src="javascripts/app.js"></script>
+    </body>
+</html>
